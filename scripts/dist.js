@@ -1,4 +1,4 @@
-import schemaBuilder from '@ideditor/schema-builder';
+import schemaBuilder from '@ormcz/schema-builder';
 
 let translationOptions = {};
 if (process.argv.includes('translations')) {
