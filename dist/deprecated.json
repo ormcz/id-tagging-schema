@@ -1,6 +1,373 @@
 [
     {
         "old": {
+            "railway:switch:local_operated": "*"
+        },
+        "replace": {
+            "railway:local_operated": "$1"
+        }
+    },
+    {
+        "old": {
+            "railway:derail:local_operated": "*"
+        },
+        "replace": {
+            "railway:local_operated": "$1"
+        }
+    },
+    {
+        "old": {
+            "public_transport": "stop_area",
+            "railway": "facility"
+        },
+        "replace": {
+            "public_transport": "stop_area",
+            "train": "yes"
+        }
+    },
+    {
+        "old": {
+            "public_transport": "stop_position",
+            "railway": "stop",
+            "local_ref": "*"
+        },
+        "replace": {
+            "public_transport": "stop_position",
+            "railway": "stop",
+            "ref": "$1"
+        }
+    },
+    {
+        "old": {
+            "railway": "platform",
+            "name": "*"
+        },
+        "replace": {
+            "railway": "platform"
+        }
+    },
+    {
+        "old": {
+            "railway": "platform"
+        },
+        "replace": {
+            "public_transport": "platform",
+            "railway": "platform",
+            "train": "yes"
+        }
+    },
+    {
+        "old": {
+            "railway": "platform_edge",
+            "name": "*"
+        },
+        "replace": {
+            "railway": "platform_edge"
+        }
+    },
+    {
+        "old": {
+            "railway": "platform_edge"
+        },
+        "replace": {
+            "public_transport": "platform",
+            "railway": "platform_edge",
+            "train": "yes"
+        }
+    },
+    {
+        "old": {
+            "amenity": "shelter",
+            "shelter_type": "public_transport"
+        },
+        "replace": {
+            "amenity": "shelter",
+            "shelter_type": "public_transport",
+            "building": "transportation"
+        }
+    },
+    {
+        "old": {
+            "amenity": "shelter",
+            "shelter_type": "public_transport",
+            "building": "yes"
+        },
+        "replace": {
+            "amenity": "shelter",
+            "shelter_type": "public_transport",
+            "building": "transportation"
+        }
+    },
+    {
+        "old": {
+            "network": "cz:IDPK"
+        },
+        "replace": {
+            "network": "Integrovaná doprava Plzeňského kraje"
+        }
+    },
+    {
+        "old": {
+            "network": "IDPK"
+        },
+        "replace": {
+            "network": "Integrovaná doprava Plzeňského kraje"
+        }
+    },
+    {
+        "old": {
+            "network": "Integrovaná doprava Plzeňského kraje"
+        },
+        "replace": {
+            "network": "Integrovaná doprava Plzeňského kraje",
+            "network:short": "IDPK",
+            "network:wikidata": "Q12021682"
+        }
+    },
+    {
+        "old": {
+            "network:wikipedia": "cs:Integrovaná doprava Plzeňského kraje"
+        },
+        "replace": {
+            "network:wikidata": "Q12021682"
+        }
+    },
+    {
+        "old": {
+            "network": "cz:PID"
+        },
+        "replace": {
+            "network": "Pražská integrovaná doprava"
+        }
+    },
+    {
+        "old": {
+            "network": "PID"
+        },
+        "replace": {
+            "network": "Pražská integrovaná doprava"
+        }
+    },
+    {
+        "old": {
+            "network": "Pražská integrovaná doprava"
+        },
+        "replace": {
+            "network": "Pražská integrovaná doprava",
+            "network:short": "PID",
+            "network:wikidata": "Q2108171"
+        }
+    },
+    {
+        "old": {
+            "network:wikipedia": "cs:Pražská integrovaná doprava"
+        },
+        "replace": {
+            "network:wikidata": "Q2108171"
+        }
+    },
+    {
+        "old": {
+            "network": "Integrovaná doprava Plzeňského kraje;Pražská integrovaná doprava"
+        },
+        "replace": {
+            "network": "Integrovaná doprava Plzeňského kraje;Pražská integrovaná doprava",
+            "network:short": "IDPK;PID",
+            "network:wikidata": "Q12021682;Q2108171"
+        }
+    },
+    {
+        "old": {
+            "operator": "cz:ČD"
+        },
+        "replace": {
+            "operator": "České dráhy"
+        }
+    },
+    {
+        "old": {
+            "operator": "ČD"
+        },
+        "replace": {
+            "operator": "České dráhy"
+        }
+    },
+    {
+        "old": {
+            "operator": "České dráhy a.s."
+        },
+        "replace": {
+            "operator": "České dráhy"
+        }
+    },
+    {
+        "old": {
+            "operator": "České dráhy, a. s."
+        },
+        "replace": {
+            "operator": "České dráhy"
+        }
+    },
+    {
+        "old": {
+            "operator": "České dráhy, a.s."
+        },
+        "replace": {
+            "operator": "České dráhy"
+        }
+    },
+    {
+        "old": {
+            "operator": "České Dráhy"
+        },
+        "replace": {
+            "operator": "České dráhy"
+        }
+    },
+    {
+        "old": {
+            "operator": "České dráhy"
+        },
+        "replace": {
+            "operator": "České dráhy",
+            "operator:short": "ČD",
+            "operator:wikidata": "Q304944"
+        }
+    },
+    {
+        "old": {
+            "operator:wikipedia": "cs:České dráhy"
+        },
+        "replace": {
+            "operator:wikidata": "Q304944"
+        }
+    },
+    {
+        "old": {
+            "operator": "cz:SŽDC"
+        },
+        "replace": {
+            "operator": "Správa železnic"
+        }
+    },
+    {
+        "old": {
+            "operator": "SŽDC"
+        },
+        "replace": {
+            "operator": "Správa železnic"
+        }
+    },
+    {
+        "old": {
+            "operator": "cz:SŽ"
+        },
+        "replace": {
+            "operator": "Správa železnic"
+        }
+    },
+    {
+        "old": {
+            "operator": "SŽ"
+        },
+        "replace": {
+            "operator": "Správa železnic"
+        }
+    },
+    {
+        "old": {
+            "operator": "Správa železnic, s. o."
+        },
+        "replace": {
+            "operator": "Správa železnic"
+        }
+    },
+    {
+        "old": {
+            "operator": "cz:Správa železnic, s. o."
+        },
+        "replace": {
+            "operator": "Správa železnic"
+        }
+    },
+    {
+        "old": {
+            "operator": "cz:Správa železnic"
+        },
+        "replace": {
+            "operator": "Správa železnic"
+        }
+    },
+    {
+        "old": {
+            "operator": "Správa železnic"
+        },
+        "replace": {
+            "operator": "Správa železnic",
+            "operator:short": "SŽ",
+            "operator:wikidata": "Q1848025"
+        }
+    },
+    {
+        "old": {
+            "operator:wikipedia": "cs:Správa železnic"
+        },
+        "replace": {
+            "operator:wikidata": "Q1848025"
+        }
+    },
+    {
+        "old": {
+            "operator": "cs:PMDP"
+        },
+        "replace": {
+            "operator": "Plzeňské městské dopravní podniky"
+        }
+    },
+    {
+        "old": {
+            "operator": "PMPD"
+        },
+        "replace": {
+            "operator": "Plzeňské městské dopravní podniky"
+        }
+    },
+    {
+        "old": {
+            "operator": "PMDP, a.s."
+        },
+        "replace": {
+            "operator": "Správa železnic"
+        }
+    },
+    {
+        "old": {
+            "operator": "Plzeňské městské dopravní podniky, a.s."
+        },
+        "replace": {
+            "operator": "Plzeňské městské dopravní podniky"
+        }
+    },
+    {
+        "old": {
+            "operator": "Plzeňské městské dopravní podniky"
+        },
+        "replace": {
+            "operator": "Plzeňské městské dopravní podniky",
+            "operator:short": "PMDP",
+            "operator:wikidata": "Q2099900"
+        }
+    },
+    {
+        "old": {
+            "operator:wikipedia": "cs:Plzeňské městské dopravní podniky"
+        },
+        "replace": {
+            "operator:wikidata": "Q2099900"
+        }
+    },
+    {
+        "old": {
             "aerialway": "canopy"
         },
         "replace": {

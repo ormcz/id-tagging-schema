@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-board_train",
+    "geometry": [
+        "point"
+    ],
+    "fields": [
+        "name",
+        "official_name",
+        "@rail/railway_ref",
+        "@rail/uic_ref"
+    ],
+    "moreFields": [
+        "@rail/railway_ref_parent"
+    ],
+    "tags": {
+        "railway": "station",
+        "public_transport": "no",
+        "train": "yes",
+        "operator": "Správa železnic"
+    },
+    "name": "@Station (SZ)",
+    "matchScore": 2.1
+}

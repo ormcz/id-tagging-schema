@@ -35255,5 +35255,596 @@
             ]
         },
         "name": "{point}"
+    },
+    "@rail/transit_shelter": {
+        "icon": "temaki-transit_shelter",
+        "fields": [
+            "name",
+            "operator",
+            "bench",
+            "lit",
+            "bin",
+            "building_area_yes"
+        ],
+        "geometry": [
+            "point",
+            "area"
+        ],
+        "tags": {
+            "amenity": "shelter",
+            "shelter_type": "public_transport"
+        },
+        "addTags": {
+            "building": "transportation"
+        },
+        "reference": {
+            "key": "shelter_type",
+            "value": "public_transport"
+        },
+        "matchScore": 2.1
+    },
+    "@rail/switch": {
+        "icon": "temaki-junction",
+        "geometry": [
+            "vertex"
+        ],
+        "fields": [
+            "@rail/ref",
+            "@rail/switch/type",
+            "@rail/switch/electric",
+            "@rail/local_operated"
+        ],
+        "moreFields": [
+            "@rail/switch/resetting",
+            "@rail/switch/movable_frog",
+            "{@rail/@position}"
+        ],
+        "tags": {
+            "railway": "switch"
+        },
+        "matchScore": 2
+    },
+    "@rail/stop_position": {
+        "icon": "temaki-train",
+        "geometry": [
+            "vertex"
+        ],
+        "fields": [
+            "name",
+            "@rail/ref"
+        ],
+        "tags": {
+            "railway": "stop",
+            "train": "yes",
+            "public_transport": "stop_position"
+        },
+        "matchScore": 2
+    },
+    "@rail/signal": {
+        "icon": "temaki-railway_signals",
+        "geometry": [
+            "point",
+            "vertex"
+        ],
+        "fields": [
+            "@rail/ref",
+            "@rail/ormcz_signal"
+        ],
+        "tags": {
+            "railway": "signal"
+        },
+        "matchScore": 20
+    },
+    "@rail/rail": {
+        "icon": "temaki-railway_track",
+        "fields": [
+            "{railway/light_rail}",
+            "railway/track_ref"
+        ],
+        "moreFields": [
+            "{railway/light_rail}",
+            "ref_rail"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "railway": "rail"
+        },
+        "matchScore": 1.5
+    },
+    "@rail/platform_edge": {
+        "icon": "temaki-board_train",
+        "geometry": [
+            "line"
+        ],
+        "fields": [
+            "@rail/ref"
+        ],
+        "tags": {
+            "railway": "platform_edge",
+            "train": "yes",
+            "public_transport": "platform"
+        },
+        "matchScore": 2
+    },
+    "@rail/platform": {
+        "icon": "temaki-board_train",
+        "geometry": [
+            "area",
+            "line"
+        ],
+        "fields": [
+            "@rail/ref"
+        ],
+        "tags": {
+            "railway": "platform",
+            "train": "yes",
+            "public_transport": "platform"
+        },
+        "matchScore": 2
+    },
+    "@rail/owner_change": {
+        "icon": "temaki-milestone",
+        "geometry": [
+            "vertex"
+        ],
+        "fields": [],
+        "moreFields": [
+            "{@rail/@position}"
+        ],
+        "tags": {
+            "railway": "owner_change"
+        },
+        "matchScore": 2
+    },
+    "@rail/milestone": {
+        "icon": "temaki-milestone",
+        "geometry": [
+            "vertex"
+        ],
+        "fields": [],
+        "moreFields": [
+            "{@rail/@position}"
+        ],
+        "tags": {
+            "railway": "owner_change"
+        },
+        "matchScore": 2
+    },
+    "@rail/derail": {
+        "icon": "maki-roadblock",
+        "geometry": [
+            "vertex"
+        ],
+        "fields": [
+            "@rail/ref",
+            "@rail/derail/type",
+            "@rail/derail/direction",
+            "@rail/derail/electric",
+            "@rail/local_operated"
+        ],
+        "moreFields": [
+            "{@rail/@position}"
+        ],
+        "tags": {
+            "railway": "derail"
+        },
+        "matchScore": 2
+    },
+    "@rail/@position": {
+        "moreFields": [
+            "@rail/position",
+            "@rail/exact_position"
+        ],
+        "geometry": [
+            "vertex",
+            "point"
+        ],
+        "tags": {
+            "@rail": "position"
+        },
+        "searchable": false,
+        "name": "{point}"
+    },
+    "@rail/ptv2/yard_sz": {
+        "icon": "temaki-freight_car",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "name",
+            "official_name",
+            "@rail/railway_ref",
+            "@rail/uic_ref"
+        ],
+        "moreFields": [
+            "@rail/railway_ref_parent"
+        ],
+        "tags": {
+            "railway": "yard",
+            "operator": "Správa železnic"
+        },
+        "matchScore": 2.1
+    },
+    "@rail/ptv2/stoparea_sz_pid": {
+        "icon": "temaki-board_train",
+        "geometry": [
+            "relation"
+        ],
+        "fields": [
+            "name",
+            "@rail/railway_ref",
+            "@rail/uic_ref"
+        ],
+        "tags": {
+            "type": "public_transport",
+            "public_transport": "stop_area",
+            "train": "yes",
+            "network": "Pražská integrovaná doprava",
+            "operator": "Správa železnic"
+        },
+        "matchScore": 2.1
+    },
+    "@rail/ptv2/stoparea_sz_idpk_pid": {
+        "icon": "temaki-board_train",
+        "geometry": [
+            "relation"
+        ],
+        "fields": [
+            "name",
+            "@rail/railway_ref",
+            "@rail/uic_ref"
+        ],
+        "tags": {
+            "type": "public_transport",
+            "public_transport": "stop_area",
+            "train": "yes",
+            "network": "Integrovaná doprava Plzeňského kraje;Pražská integrovaná doprava",
+            "operator": "Správa železnic"
+        },
+        "matchScore": 2.1
+    },
+    "@rail/ptv2/stoparea_sz_idpk": {
+        "icon": "temaki-board_train",
+        "geometry": [
+            "relation"
+        ],
+        "fields": [
+            "name",
+            "@rail/railway_ref",
+            "@rail/uic_ref"
+        ],
+        "tags": {
+            "type": "public_transport",
+            "public_transport": "stop_area",
+            "train": "yes",
+            "network": "Integrovaná doprava Plzeňského kraje",
+            "operator": "Správa železnic"
+        },
+        "matchScore": 2.1
+    },
+    "@rail/ptv2/stoparea_pmdp_idpk": {
+        "icon": "temaki-board_bus",
+        "geometry": [
+            "relation"
+        ],
+        "fields": [
+            "name",
+            "vehicles"
+        ],
+        "tags": {
+            "type": "public_transport",
+            "public_transport": "stop_area",
+            "network": "Integrovaná doprava Plzeňského kraje",
+            "operator": "Plzeňské městské dopravní podniky"
+        },
+        "matchScore": 2.1
+    },
+    "@rail/ptv2/station_sz_pid": {
+        "icon": "temaki-board_train",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "name",
+            "official_name",
+            "@rail/railway_ref",
+            "@rail/uic_ref"
+        ],
+        "moreFields": [
+            "@rail/railway_ref_parent"
+        ],
+        "tags": {
+            "railway": "station",
+            "public_transport": "station",
+            "train": "yes",
+            "network": "Pražská integrovaná doprava",
+            "operator": "Správa železnic"
+        },
+        "matchScore": 2.1
+    },
+    "@rail/ptv2/station_sz_idpk_pid": {
+        "icon": "temaki-board_train",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "name",
+            "official_name",
+            "@rail/railway_ref",
+            "@rail/uic_ref"
+        ],
+        "moreFields": [
+            "@rail/railway_ref_parent"
+        ],
+        "tags": {
+            "railway": "station",
+            "public_transport": "station",
+            "train": "yes",
+            "network": "Integrovaná doprava Plzeňského kraje;Pražská integrovaná doprava",
+            "operator": "Správa železnic"
+        },
+        "matchScore": 2.1
+    },
+    "@rail/ptv2/station_sz_idpk": {
+        "icon": "temaki-board_train",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "name",
+            "official_name",
+            "@rail/railway_ref",
+            "@rail/uic_ref"
+        ],
+        "moreFields": [
+            "@rail/railway_ref_parent"
+        ],
+        "tags": {
+            "railway": "station",
+            "public_transport": "station",
+            "train": "yes",
+            "network": "Integrovaná doprava Plzeňského kraje",
+            "operator": "Správa železnic"
+        },
+        "matchScore": 2.1
+    },
+    "@rail/ptv2/station_sz": {
+        "icon": "temaki-board_train",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "name",
+            "official_name",
+            "@rail/railway_ref",
+            "@rail/uic_ref"
+        ],
+        "moreFields": [
+            "@rail/railway_ref_parent"
+        ],
+        "tags": {
+            "railway": "station",
+            "public_transport": "no",
+            "train": "yes",
+            "operator": "Správa železnic"
+        },
+        "matchScore": 2.1
+    },
+    "@rail/ptv2/spur_sz": {
+        "icon": "temaki-railway_track_partial",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "name",
+            "official_name",
+            "@rail/railway_ref",
+            "@rail/uic_ref"
+        ],
+        "moreFields": [
+            "@rail/railway_ref_parent"
+        ],
+        "tags": {
+            "railway": "spur_junction",
+            "operator": "Správa železnic"
+        },
+        "matchScore": 2.1
+    },
+    "@rail/ptv2/site_sz": {
+        "icon": "temaki-pin",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "name",
+            "official_name",
+            "@rail/railway_ref",
+            "@rail/uic_ref"
+        ],
+        "moreFields": [
+            "@rail/railway_ref_parent"
+        ],
+        "tags": {
+            "railway": "site",
+            "operator": "Správa železnic"
+        },
+        "matchScore": 2.1
+    },
+    "@rail/ptv2/junction_sz": {
+        "icon": "temaki-junction",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "name",
+            "official_name",
+            "@rail/railway_ref",
+            "@rail/uic_ref"
+        ],
+        "moreFields": [
+            "@rail/railway_ref_parent"
+        ],
+        "tags": {
+            "railway": "junction",
+            "operator": "Správa železnic"
+        },
+        "matchScore": 2.1
+    },
+    "@rail/ptv2/halt_sz_pid": {
+        "icon": "temaki-rail_flag",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "name",
+            "official_name",
+            "@rail/railway_ref",
+            "@rail/uic_ref"
+        ],
+        "moreFields": [
+            "@rail/railway_ref_parent"
+        ],
+        "tags": {
+            "railway": "halt",
+            "public_transport": "station",
+            "train": "yes",
+            "network": "Pražská integrovaná doprava",
+            "operator": "Správa železnic"
+        },
+        "matchScore": 2.1
+    },
+    "@rail/ptv2/halt_sz_idpk_pid": {
+        "icon": "temaki-rail_flag",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "name",
+            "official_name",
+            "@rail/railway_ref",
+            "@rail/uic_ref"
+        ],
+        "moreFields": [
+            "@rail/railway_ref_parent"
+        ],
+        "tags": {
+            "railway": "halt",
+            "public_transport": "station",
+            "train": "yes",
+            "network": "Integrovaná doprava Plzeňského kraje;Pražská integrovaná doprava",
+            "operator": "Správa železnic"
+        },
+        "matchScore": 2.1
+    },
+    "@rail/ptv2/halt_sz_idpk": {
+        "icon": "temaki-rail_flag",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "name",
+            "official_name",
+            "@rail/railway_ref",
+            "@rail/uic_ref"
+        ],
+        "moreFields": [
+            "@rail/railway_ref_parent"
+        ],
+        "tags": {
+            "railway": "halt",
+            "public_transport": "station",
+            "train": "yes",
+            "network": "Integrovaná doprava Plzeňského kraje",
+            "operator": "Správa železnic"
+        },
+        "matchScore": 2.1
+    },
+    "@rail/ptv2/crossover_sz": {
+        "icon": "temaki-x_oblique",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "name",
+            "official_name",
+            "@rail/railway_ref",
+            "@rail/uic_ref"
+        ],
+        "moreFields": [
+            "@rail/railway_ref_parent"
+        ],
+        "tags": {
+            "railway": "crossover",
+            "operator": "Správa železnic"
+        },
+        "matchScore": 2.1
+    },
+    "@rail/combinations/derail_with_signal": {
+        "icon": "maki-roadblock",
+        "geometry": [
+            "vertex"
+        ],
+        "fields": [
+            "@rail/ref",
+            "@rail/derail/type",
+            "@rail/derail/direction",
+            "@rail/derail/electric",
+            "@rail/local_operated",
+            "@rail/signal/position"
+        ],
+        "moreFields": [
+            "{@rail/@position}"
+        ],
+        "tags": {
+            "railway": "derail",
+            "railway:signal:shunting": "CZ-D1:navestidlo_vykolejky",
+            "railway:signal:shunting:states": "CZ-D1:posun_zakazan;CZ-D1:jizda_primym_smerem",
+            "railway:signal:shunting:form": "semaphore",
+            "railway:signal:shunting:height": "short",
+            "railway:signal:direction": "both"
+        },
+        "matchScore": 4
+    },
+    "@rail/combinations/buffer_stop_with_signal": {
+        "icon": "temaki-buffer_stop",
+        "geometry": [
+            "vertex"
+        ],
+        "fields": [
+            "@rail/signal/direction"
+        ],
+        "tags": {
+            "railway": "buffer_stop",
+            "railway:signal:shunting": "CZ-D1:posun_zakazan",
+            "railway:signal:shunting:form": "sign",
+            "railway:signal:position": "in_track"
+        },
+        "matchScore": 4
+    },
+    "@rail/catenary/catenary_portal": {
+        "fields": [],
+        "moreFields": [],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "power": "catenary_portal"
+        },
+        "matchScore": 2
+    },
+    "@rail/catenary/catenary_mast": {
+        "icon": "temaki-power_pole",
+        "fields": [],
+        "moreFields": [],
+        "geometry": [
+            "point",
+            "vertex"
+        ],
+        "tags": {
+            "power": "catenary_mast"
+        },
+        "matchScore": 2
     }
 }

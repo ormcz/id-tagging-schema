@@ -1,0 +1,24 @@
+{
+    "icon": "temaki-rail_flag",
+    "geometry": [
+        "point"
+    ],
+    "fields": [
+        "name",
+        "official_name",
+        "@rail/railway_ref",
+        "@rail/uic_ref"
+    ],
+    "moreFields": [
+        "@rail/railway_ref_parent"
+    ],
+    "tags": {
+        "railway": "halt",
+        "public_transport": "station",
+        "train": "yes",
+        "network": "Integrovaná doprava Plzeňského kraje;Pražská integrovaná doprava",
+        "operator": "Správa železnic"
+    },
+    "name": "@Halt (SZ+IDPK+PID)",
+    "matchScore": 2.1
+}

@@ -1,0 +1,20 @@
+{
+    "icon": "temaki-railway_signals",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "fields": [
+        "@rail/ref",
+        "@rail/ormcz_signal"
+    ],
+    "tags": {
+        "railway": "signal"
+    },
+    "terms": [
+        "signal",
+        "lights"
+    ],
+    "name": "@Signal",
+    "matchScore": 20
+}

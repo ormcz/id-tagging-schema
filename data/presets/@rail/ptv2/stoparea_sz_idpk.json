@@ -1,0 +1,20 @@
+{
+    "icon": "temaki-board_train",
+    "geometry": [
+        "relation"
+    ],
+    "fields": [
+        "name",
+        "@rail/railway_ref",
+        "@rail/uic_ref"
+    ],
+    "tags": {
+        "type": "public_transport",
+        "public_transport": "stop_area",
+        "train": "yes",
+        "network": "Integrovaná doprava Plzeňského kraje",
+        "operator": "Správa železnic"
+    },
+    "name": "@Stoparea (SZ+IDPK)",
+    "matchScore": 2.1
+}

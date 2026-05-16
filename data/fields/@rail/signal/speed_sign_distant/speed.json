@@ -1,0 +1,9 @@
+{
+    "key": "railway:signal:speed_limit_distant:speed",
+    "type": "roadspeed",
+    "minValue": 10,
+    "increment": 10,
+    "label": "Speed",
+    "autoSuggestions": false,
+    "customValues": true
+}

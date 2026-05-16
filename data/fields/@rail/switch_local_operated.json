@@ -1,0 +1,5 @@
+{
+    "key": "railway:switch:local_operated",
+    "type": "check",
+    "label": "Local operated"
+}

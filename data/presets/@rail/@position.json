@@ -1,0 +1,15 @@
+{
+    "moreFields": [
+        "@rail/position",
+        "@rail/exact_position"
+    ],
+    "geometry": [
+        "vertex",
+        "point"
+    ],
+    "tags": {
+        "@rail": "position"
+    },
+    "searchable": false,
+    "name": "{point}"
+}

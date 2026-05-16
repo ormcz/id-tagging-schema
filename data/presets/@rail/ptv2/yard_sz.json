@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-freight_car",
+    "geometry": [
+        "point"
+    ],
+    "fields": [
+        "name",
+        "official_name",
+        "@rail/railway_ref",
+        "@rail/uic_ref"
+    ],
+    "moreFields": [
+        "@rail/railway_ref_parent"
+    ],
+    "tags": {
+        "railway": "yard",
+        "operator": "Správa železnic"
+    },
+    "name": "@Yard (SZ)",
+    "matchScore": 2.1
+}

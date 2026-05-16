@@ -1,0 +1,22 @@
+{
+    "icon": "temaki-junction",
+    "geometry": [
+        "vertex"
+    ],
+    "fields": [
+        "@rail/ref",
+        "@rail/switch/type",
+        "@rail/switch/electric",
+        "@rail/local_operated"
+    ],
+    "moreFields": [
+        "@rail/switch/resetting",
+        "@rail/switch/movable_frog",
+        "{@rail/@position}"
+    ],
+    "tags": {
+        "railway": "switch"
+    },
+    "name": "@Switch",
+    "matchScore": 2
+}

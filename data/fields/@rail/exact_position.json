@@ -1,0 +1,6 @@
+{
+    "key": "railway:position:exact",
+    "type": "text",
+    "label": "Exact Milestone Position",
+    "placeholder": "Distance to three decimals (123.456)"
+}

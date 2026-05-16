@@ -1,0 +1,14 @@
+{
+    "key": "railway:derail:direction",
+    "type": "combo",
+    "label": "Direction Affected",
+    "strings": {
+        "options": {
+            "forward": "Forward",
+            "backward": "Backward",
+            "both": "Both / All"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

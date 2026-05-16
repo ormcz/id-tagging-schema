@@ -1,0 +1,14 @@
+{
+    "key": "railway:signal:distant:height",
+    "type": "combo",
+    "label": "Signal height",
+    "strings": {
+        "options": {
+            "normal": "Normal",
+            "dwarf": "Dwarf"
+        }
+    },
+    "default": "normal",
+    "autoSuggestions": false,
+    "customValues": true
+}

@@ -1,0 +1,18 @@
+{
+    "icon": "temaki-power_pole",
+    "fields": [],
+    "moreFields": [],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "power": "catenary_mast"
+    },
+    "terms": [
+        "catenary mast",
+        "catenary pylon"
+    ],
+    "name": "@Catenary Mast",
+    "matchScore": 2
+}

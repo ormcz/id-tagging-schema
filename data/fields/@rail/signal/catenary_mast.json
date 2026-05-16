@@ -1,0 +1,5 @@
+{
+    "key": "railway:signal:catenary_mast",
+    "type": "check",
+    "label": "Attached to a catenary mast"
+}

@@ -1,0 +1,6 @@
+{
+    "key": "railway:position",
+    "type": "text",
+    "label": "Milestone Position",
+    "placeholder": "Distance to one decimal (123.4)"
+}

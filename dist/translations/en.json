@@ -4978,6 +4978,217 @@
                         "odd": "Odd",
                         "alphabetic": "Alphabetic"
                     }
+                },
+                "@rail/uic_ref": {
+                    "label": "UIC reference number"
+                },
+                "@rail/track_ref": {
+                    "label": "Track Number"
+                },
+                "@rail/switch_local_operated": {
+                    "label": "Local operated"
+                },
+                "@rail/switch_electric": {
+                    "label": "Electrically set"
+                },
+                "@rail/switch": {
+                    "label": "Switch Type",
+                    "options": {
+                        "default": "Normal Switch",
+                        "double_slip": "Double-slip Switch",
+                        "single_slip": "Single-slip Switch",
+                        "wye": "Wye Switch",
+                        "three_way": "Three-way Switch",
+                        "abt": "Abt Switch"
+                    }
+                },
+                "@rail/signal_direction": {
+                    "label": "Direction Affected",
+                    "options": {
+                        "forward": "Forward",
+                        "backward": "Backward",
+                        "both": "Both / All"
+                    }
+                },
+                "@rail/ref": {
+                    "label": "Reference number"
+                },
+                "@rail/railway_ref_parent": {
+                    "label": "Parent site operator reference"
+                },
+                "@rail/railway_ref": {
+                    "label": "Operator reference"
+                },
+                "@rail/position_exact": {
+                    "label": "Milestone Position (Exact)",
+                    "placeholder": "Distance to three decimal (123.456)"
+                },
+                "@rail/position": {
+                    "label": "Milestone Position",
+                    "placeholder": "Distance to one decimal (123.4)"
+                },
+                "@rail/ormcz_signal": {
+                    "label": "Ormcz Signal"
+                },
+                "@rail/local_operated": {
+                    "label": "Local operated"
+                },
+                "@rail/exact_position": {
+                    "label": "Exact Milestone Position",
+                    "placeholder": "Distance to three decimals (123.456)"
+                },
+                "@rail/switch/type": {
+                    "label": "Switch Type",
+                    "options": {
+                        "default": "Normal Switch",
+                        "double_slip": "Double-slip Switch",
+                        "single_slip": "Single-slip Switch",
+                        "wye": "Wye Switch",
+                        "three_way": "Three-way Switch",
+                        "abt": "Abt Switch"
+                    }
+                },
+                "@rail/switch/resetting": {
+                    "label": "Resetting"
+                },
+                "@rail/switch/movable_frog": {
+                    "label": "Movable frog"
+                },
+                "@rail/switch/electric": {
+                    "label": "Electrically operated"
+                },
+                "@rail/signal/position": {
+                    "label": "Position (in respect to the osm way)",
+                    "options": {
+                        "right": "Right",
+                        "left": "Left",
+                        "bridge": "Bridge / Gantry",
+                        "overhead": "Attached to catenary",
+                        "in_track": "In the track"
+                    }
+                },
+                "@rail/signal/direction": {
+                    "label": "Direction Affected",
+                    "options": {
+                        "forward": "Forward",
+                        "backward": "Backward",
+                        "both": "Both / All"
+                    }
+                },
+                "@rail/signal/catenary_mast": {
+                    "label": "Attached to a catenary mast"
+                },
+                "@rail/signal/speed_sign_distant/speed": {
+                    "label": "Speed"
+                },
+                "@rail/signal/speed_sign/speed": {
+                    "label": "Speed"
+                },
+                "@rail/signal/shunting/height": {
+                    "label": "Signal height",
+                    "options": {
+                        "normal": "Normal",
+                        "dwarf": "Dwarf"
+                    }
+                },
+                "@rail/signal/shunting/form": {
+                    "label": "Signal form",
+                    "options": {
+                        "light": "Light",
+                        "sign": "Sign",
+                        "semaphore": "Semaphore"
+                    }
+                },
+                "@rail/signal/main/substitute": {
+                    "label": "Substitute signal"
+                },
+                "@rail/signal/main/height": {
+                    "label": "Signal height",
+                    "options": {
+                        "normal": "Normal",
+                        "dwarf": "Dwarf"
+                    }
+                },
+                "@rail/signal/main/function": {
+                    "label": "Signal function",
+                    "options": {
+                        "entry": "Entry",
+                        "exit": "Exit",
+                        "intermediate": "Intermediate",
+                        "block": "Block"
+                    }
+                },
+                "@rail/signal/main/form": {
+                    "label": "Signal form",
+                    "options": {
+                        "light": "Light",
+                        "sign": "Sign",
+                        "semaphore": "Semaphore"
+                    }
+                },
+                "@rail/signal/distant/repeated": {
+                    "label": "Repeater signal"
+                },
+                "@rail/signal/distant/height": {
+                    "label": "Signal height",
+                    "options": {
+                        "normal": "Normal",
+                        "dwarf": "Dwarf"
+                    }
+                },
+                "@rail/signal/distant/form": {
+                    "label": "Signal form",
+                    "options": {
+                        "light": "Light",
+                        "sign": "Sign",
+                        "semaphore": "Semaphore"
+                    }
+                },
+                "@rail/signal/combined/substitute": {
+                    "label": "Substitute signal"
+                },
+                "@rail/signal/combined/height": {
+                    "label": "Signal height",
+                    "options": {
+                        "normal": "Normal",
+                        "dwarf": "Dwarf"
+                    }
+                },
+                "@rail/signal/combined/function": {
+                    "label": "Signal function",
+                    "options": {
+                        "entry": "Entry",
+                        "exit": "Exit",
+                        "intermediate": "Intermediate",
+                        "block": "Block"
+                    }
+                },
+                "@rail/signal/combined/form": {
+                    "label": "Signal form",
+                    "options": {
+                        "light": "Light",
+                        "sign": "Sign",
+                        "semaphore": "Semaphore"
+                    }
+                },
+                "@rail/derail/type": {
+                    "label": "Derailer Type",
+                    "options": {
+                        "wedge": "Wedge",
+                        "trap_point": "Trap point",
+                        "catch_point": "Catch point"
+                    }
+                },
+                "@rail/derail/electric": {
+                    "label": "Electrically operated"
+                },
+                "@rail/derail/direction": {
+                    "label": "Direction Affected",
+                    "options": {
+                        "forward": "Forward",
+                        "backward": "Backward",
+                        "both": "Both / All"
+                    }
                 }
             },
             "presets": {
@@ -11450,7 +11661,103 @@
                 "@templates/crossing/markings": {},
                 "@templates/crossing/geometry_way_more": {},
                 "@templates/crossing/defaults": {},
-                "@templates/crossing/bicycle_more": {}
+                "@templates/crossing/bicycle_more": {},
+                "@rail/transit_shelter": {
+                    "name": "@Shelter",
+                    "terms": "bus stop,metro stop,public transit shelter,public transport shelter,tram stop shelter,waiting"
+                },
+                "@rail/switch": {
+                    "name": "@Switch"
+                },
+                "@rail/stop_position": {
+                    "name": "@Stop Position"
+                },
+                "@rail/signal": {
+                    "name": "@Signal",
+                    "terms": "signal,lights"
+                },
+                "@rail/rail": {
+                    "name": "@Track"
+                },
+                "@rail/platform_edge": {
+                    "name": "@Platform edge"
+                },
+                "@rail/platform": {
+                    "name": "@Platform"
+                },
+                "@rail/owner_change": {
+                    "name": "@Owner Change"
+                },
+                "@rail/milestone": {
+                    "name": "@Milestone"
+                },
+                "@rail/derail": {
+                    "name": "@Derailer"
+                },
+                "@rail/@position": {},
+                "@rail/ptv2/yard_sz": {
+                    "name": "@Yard (SZ)"
+                },
+                "@rail/ptv2/stoparea_sz_pid": {
+                    "name": "@Stoparea (SZ+PID)"
+                },
+                "@rail/ptv2/stoparea_sz_idpk_pid": {
+                    "name": "@Stoparea (SZ+IDPK+PID)"
+                },
+                "@rail/ptv2/stoparea_sz_idpk": {
+                    "name": "@Stoparea (SZ+IDPK)"
+                },
+                "@rail/ptv2/stoparea_pmdp_idpk": {
+                    "name": "@Stoparea (PMDP+IDPK)"
+                },
+                "@rail/ptv2/station_sz_pid": {
+                    "name": "@Station (SZ+PID)"
+                },
+                "@rail/ptv2/station_sz_idpk_pid": {
+                    "name": "@Station (SZ+IDPK+PID)"
+                },
+                "@rail/ptv2/station_sz_idpk": {
+                    "name": "@Station (SZ+IDPK)"
+                },
+                "@rail/ptv2/station_sz": {
+                    "name": "@Station (SZ)"
+                },
+                "@rail/ptv2/spur_sz": {
+                    "name": "@Spur (SZ)"
+                },
+                "@rail/ptv2/site_sz": {
+                    "name": "@Site (SZ)"
+                },
+                "@rail/ptv2/junction_sz": {
+                    "name": "@Junction (SZ)"
+                },
+                "@rail/ptv2/halt_sz_pid": {
+                    "name": "@Halt (SZ+PID)"
+                },
+                "@rail/ptv2/halt_sz_idpk_pid": {
+                    "name": "@Halt (SZ+IDPK+PID)"
+                },
+                "@rail/ptv2/halt_sz_idpk": {
+                    "name": "@Halt (SZ+IDPK)"
+                },
+                "@rail/ptv2/crossover_sz": {
+                    "name": "@Crossover (SZ)"
+                },
+                "@rail/combinations/derail_with_signal": {
+                    "name": "@Derailer With @Signal"
+                },
+                "@rail/combinations/buffer_stop_with_signal": {
+                    "name": "Buffer Stop With @Signal",
+                    "terms": "buffer,halt,stop"
+                },
+                "@rail/catenary/catenary_portal": {
+                    "name": "@Catenary Portal",
+                    "terms": "catenary portal"
+                },
+                "@rail/catenary/catenary_mast": {
+                    "name": "@Catenary Mast",
+                    "terms": "catenary mast,catenary pylon"
+                }
             }
         }
     }

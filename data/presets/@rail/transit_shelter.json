@@ -1,0 +1,36 @@
+{
+    "icon": "temaki-transit_shelter",
+    "fields": [
+        "name",
+        "operator",
+        "bench",
+        "lit",
+        "bin",
+        "building_area_yes"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "bus stop",
+        "metro stop",
+        "public transit shelter",
+        "public transport shelter",
+        "tram stop shelter",
+        "waiting"
+    ],
+    "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+    },
+    "addTags": {
+        "building": "transportation"
+    },
+    "reference": {
+        "key": "shelter_type",
+        "value": "public_transport"
+    },
+    "name": "@Shelter",
+    "matchScore": 2.1
+}

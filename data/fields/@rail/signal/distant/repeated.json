@@ -1,0 +1,5 @@
+{
+    "key": "railway:signal:distant:repeated",
+    "type": "check",
+    "label": "Repeater signal"
+}

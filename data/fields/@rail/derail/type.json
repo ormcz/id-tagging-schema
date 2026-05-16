@@ -1,0 +1,15 @@
+{
+    "key": "railway:derail",
+    "type": "combo",
+    "label": "Derailer Type",
+    "strings": {
+        "options": {
+            "wedge": "Wedge",
+            "trap_point": "Trap point",
+            "catch_point": "Catch point"
+        }
+    },
+    "default": "wedge",
+    "autoSuggestions": false,
+    "customValues": false
+}

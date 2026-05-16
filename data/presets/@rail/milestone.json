@@ -1,0 +1,15 @@
+{
+    "icon": "temaki-milestone",
+    "geometry": [
+        "vertex"
+    ],
+    "fields": [],
+    "moreFields": [
+        "{@rail/@position}"
+    ],
+    "tags": {
+        "railway": "owner_change"
+    },
+    "name": "@Milestone",
+    "matchScore": 2
+}

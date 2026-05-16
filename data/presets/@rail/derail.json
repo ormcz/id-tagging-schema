@@ -1,0 +1,21 @@
+{
+    "icon": "maki-roadblock",
+    "geometry": [
+        "vertex"
+    ],
+    "fields": [
+        "@rail/ref",
+        "@rail/derail/type",
+        "@rail/derail/direction",
+        "@rail/derail/electric",
+        "@rail/local_operated"
+    ],
+    "moreFields": [
+        "{@rail/@position}"
+    ],
+    "tags": {
+        "railway": "derail"
+    },
+    "name": "@Derailer",
+    "matchScore": 2
+}

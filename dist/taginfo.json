@@ -3747,7 +3747,7 @@
         {
             "key": "railway",
             "value": "platform",
-            "description": "🄿 Train Platform (unsearchable), 🄳 (deprecated tag) ➜ railway=platform + public_transport=platform",
+            "description": "🄿 Train Platform (unsearchable), 🄳 (deprecated tag) ➜ public_transport=platform + railway=platform + train=yes, 🄳 (deprecated tag) ➜ railway=platform + public_transport=platform",
             "object_types": [
                 "way",
                 "area"
@@ -17039,7 +17039,7 @@
             "description": "🄵 Seasonal"
         },
         {
-            "key": "scuba_diving:*",
+            "key": "scuba_diving:",
             "description": "🄵 Services"
         },
         {
@@ -17379,14 +17379,14 @@
         },
         {
             "key": "ref",
-            "description": "🄵 Taxiway Name, 🄵 Stop Number, 🄵 Section Number, 🄵 Runway Number, 🄵 Route Number, 🄵 Room Number, 🄵 Road Number, 🄵 Line Number, 🄵 Platform Number, 🄵 Junction Number, 🄵 Hole Number, 🄵 Bridge Number, 🄵 Gate Number, 🄵 Reference Code"
+            "description": "🄵 Taxiway Name, 🄵 Stop Number, 🄵 Section Number, 🄵 Runway Number, 🄵 Route Number, 🄵 Room Number, 🄵 Road Number, 🄵 Line Number, 🄵 Platform Number, 🄵 Junction Number, 🄵 Hole Number, 🄵 Bridge Number, 🄵 Gate Number, 🄵 Reference Code, 🄵 Reference number"
         },
         {
             "key": "recycling_type",
             "description": "🄵 Type"
         },
         {
-            "key": "recycling:*",
+            "key": "recycling:",
             "description": "🄵 Accepts"
         },
         {
@@ -17931,7 +17931,7 @@
             "description": "🄵 Phases"
         },
         {
-            "key": "payment:*",
+            "key": "payment:",
             "description": "🄵 Payment Types"
         },
         {
@@ -18419,7 +18419,7 @@
             "description": "🄵🅅 Mooring: Guests"
         },
         {
-            "key": "monitoring:*",
+            "key": "monitoring:",
             "description": "🄵 Monitoring"
         },
         {
@@ -18906,7 +18906,7 @@
             "description": "🄵 Layer"
         },
         {
-            "key": "language:*",
+            "key": "language:",
             "description": "🄵 Languages"
         },
         {
@@ -18930,7 +18930,7 @@
             "description": "🄵 Label"
         },
         {
-            "key": "kneipp_water_cure:*",
+            "key": "kneipp_water_cure:",
             "description": "🄵 Basin Types"
         },
         {
@@ -19795,7 +19795,7 @@
             "description": "🄵 Drinking Water Available, 🄵 Drinkable"
         },
         {
-            "key": "drink:*",
+            "key": "drink:",
             "description": "🄵 Drinks"
         },
         {
@@ -19901,7 +19901,7 @@
             "description": "🄵 Type"
         },
         {
-            "key": "diet:*",
+            "key": "diet:",
             "description": "🄵 Dietary Options"
         },
         {
@@ -20138,7 +20138,7 @@
             "description": "🄵🅅 Type: Tilted"
         },
         {
-            "key": "currency:*",
+            "key": "currency:",
             "description": "🄵 Currency Types"
         },
         {
@@ -20694,7 +20694,7 @@
             "description": "🄵 Type"
         },
         {
-            "key": "communication:*",
+            "key": "communication:",
             "description": "🄵 Communication Types"
         },
         {
@@ -21116,7 +21116,7 @@
             "description": "🄵🅅 Type: Wildlife"
         },
         {
-            "key": "blood:*",
+            "key": "blood:",
             "description": "🄵 Blood Components"
         },
         {
@@ -22164,11 +22164,11 @@
             "description": "🄵 Purpose"
         },
         {
-            "key": "service:vehicle:*",
+            "key": "service:vehicle:",
             "description": "🄵 Services"
         },
         {
-            "key": "service:bicycle:*",
+            "key": "service:bicycle:",
             "description": "🄵 Bicycle Services"
         },
         {
@@ -22695,7 +22695,7 @@
         },
         {
             "key": "railway:ref",
-            "description": "🄵 Reference Code"
+            "description": "🄵 Reference Code, 🄵 Operator reference"
         },
         {
             "key": "railway:position",
@@ -22703,36 +22703,36 @@
         },
         {
             "key": "railway:local_operated",
-            "description": "🄵 Locally Operated"
+            "description": "🄵 Locally Operated, 🄵 Local operated"
         },
         {
             "key": "railway:signal:position",
-            "description": "🄵 Placement"
+            "description": "🄵 Placement, 🄵 Position (in respect to the osm way)"
         },
         {
             "key": "railway:signal:position",
             "value": "left",
-            "description": "🄵🅅 Placement: Left"
+            "description": "🄵🅅 Placement: Left, 🄵🅅 Position (in respect to the osm way): Left"
         },
         {
             "key": "railway:signal:position",
             "value": "right",
-            "description": "🄵🅅 Placement: Right"
+            "description": "🄵🅅 Placement: Right, 🄵🅅 Position (in respect to the osm way): Right"
         },
         {
             "key": "railway:signal:position",
             "value": "in_track",
-            "description": "🄵🅅 Placement: In the track"
+            "description": "🄵🅅 Placement: In the track, 🄵🅅 Position (in respect to the osm way): In the track"
         },
         {
             "key": "railway:signal:position",
             "value": "bridge",
-            "description": "🄵🅅 Placement: Overhead (attached to a gantry)"
+            "description": "🄵🅅 Placement: Overhead (attached to a gantry), 🄵🅅 Position (in respect to the osm way): Bridge / Gantry"
         },
         {
             "key": "railway:signal:position",
             "value": "overhead",
-            "description": "🄵🅅 Placement: Overhead (attached to the catenary wire)"
+            "description": "🄵🅅 Placement: Overhead (attached to the catenary wire), 🄵🅅 Position (in respect to the osm way): Attached to catenary"
         },
         {
             "key": "railway:signal:direction",
@@ -22774,7 +22774,7 @@
             "description": "🄵 Energy Source"
         },
         {
-            "key": "plant:output:*",
+            "key": "plant:output:",
             "description": "🄵 Form of Power Output"
         },
         {
@@ -23721,7 +23721,7 @@
             "description": "🄵 Garden Type"
         },
         {
-            "key": "fuel:*",
+            "key": "fuel:",
             "description": "🄵 Fuel Types"
         },
         {
@@ -23974,7 +23974,7 @@
             "description": "🄵 Dock Height (Meters)"
         },
         {
-            "key": "diplomatic:services:*",
+            "key": "diplomatic:services:",
             "description": "🄵 Services"
         },
         {
@@ -25126,6 +25126,468 @@
             "key": "addr:interpolation",
             "value": "alphabetic",
             "description": "🄵🅅 Type: Alphabetic"
+        },
+        {
+            "key": "uic_ref",
+            "description": "🄵 UIC reference number"
+        },
+        {
+            "key": "railway:switch:local_operated",
+            "description": "🄵 Local operated, 🄳 (deprecated tag) ➜ railway:local_operated=*"
+        },
+        {
+            "key": "railway:switch:electric",
+            "description": "🄵 Electrically set, 🄵 Electrically operated"
+        },
+        {
+            "key": "railway:signal:direction",
+            "value": "forward",
+            "description": "🄵🅅 Direction Affected: Forward"
+        },
+        {
+            "key": "railway:signal:direction",
+            "value": "backward",
+            "description": "🄵🅅 Direction Affected: Backward"
+        },
+        {
+            "key": "railway:signal:direction",
+            "value": "both",
+            "description": "🄵🅅 Direction Affected: Both / All"
+        },
+        {
+            "key": "railway:ref:parent",
+            "description": "🄵 Parent site operator reference"
+        },
+        {
+            "key": "railway:position:exact",
+            "description": "🄵 Milestone Position (Exact), 🄵 Exact Milestone Position"
+        },
+        {
+            "key": "railway:signal",
+            "description": "🄵 Ormcz Signal"
+        },
+        {
+            "key": "railway:switch:resetting",
+            "description": "🄵 Resetting"
+        },
+        {
+            "key": "railway:switch:movable_frog",
+            "description": "🄵 Movable frog"
+        },
+        {
+            "key": "railway:signal:catenary_mast",
+            "description": "🄵 Attached to a catenary mast"
+        },
+        {
+            "key": "railway:signal:speed_limit_distant:speed",
+            "description": "🄵 Speed"
+        },
+        {
+            "key": "railway:signal:speed_limit:speed",
+            "description": "🄵 Speed"
+        },
+        {
+            "key": "railway:signal:shunting:height",
+            "description": "🄵 Signal height"
+        },
+        {
+            "key": "railway:signal:shunting:height",
+            "value": "normal",
+            "description": "🄵🅅 Signal height: Normal"
+        },
+        {
+            "key": "railway:signal:shunting:height",
+            "value": "dwarf",
+            "description": "🄵🅅 Signal height: Dwarf"
+        },
+        {
+            "key": "railway:signal:shunting:form",
+            "description": "🄵 Signal form"
+        },
+        {
+            "key": "railway:signal:shunting:form",
+            "value": "light",
+            "description": "🄵🅅 Signal form: Light"
+        },
+        {
+            "key": "railway:signal:shunting:form",
+            "value": "sign",
+            "description": "🄵🅅 Signal form: Sign"
+        },
+        {
+            "key": "railway:signal:shunting:form",
+            "value": "semaphore",
+            "description": "🄵🅅 Signal form: Semaphore"
+        },
+        {
+            "key": "railway:signal:main:substitute_signal",
+            "description": "🄵 Substitute signal"
+        },
+        {
+            "key": "railway:signal:main:height",
+            "description": "🄵 Signal height"
+        },
+        {
+            "key": "railway:signal:main:height",
+            "value": "normal",
+            "description": "🄵🅅 Signal height: Normal"
+        },
+        {
+            "key": "railway:signal:main:height",
+            "value": "dwarf",
+            "description": "🄵🅅 Signal height: Dwarf"
+        },
+        {
+            "key": "railway:signal:main:function",
+            "description": "🄵 Signal function"
+        },
+        {
+            "key": "railway:signal:main:function",
+            "value": "entry",
+            "description": "🄵🅅 Signal function: Entry"
+        },
+        {
+            "key": "railway:signal:main:function",
+            "value": "exit",
+            "description": "🄵🅅 Signal function: Exit"
+        },
+        {
+            "key": "railway:signal:main:function",
+            "value": "intermediate",
+            "description": "🄵🅅 Signal function: Intermediate"
+        },
+        {
+            "key": "railway:signal:main:function",
+            "value": "block",
+            "description": "🄵🅅 Signal function: Block"
+        },
+        {
+            "key": "railway:signal:main:form",
+            "description": "🄵 Signal form"
+        },
+        {
+            "key": "railway:signal:main:form",
+            "value": "light",
+            "description": "🄵🅅 Signal form: Light"
+        },
+        {
+            "key": "railway:signal:main:form",
+            "value": "sign",
+            "description": "🄵🅅 Signal form: Sign"
+        },
+        {
+            "key": "railway:signal:main:form",
+            "value": "semaphore",
+            "description": "🄵🅅 Signal form: Semaphore"
+        },
+        {
+            "key": "railway:signal:distant:repeated",
+            "description": "🄵 Repeater signal"
+        },
+        {
+            "key": "railway:signal:distant:height",
+            "description": "🄵 Signal height"
+        },
+        {
+            "key": "railway:signal:distant:height",
+            "value": "normal",
+            "description": "🄵🅅 Signal height: Normal"
+        },
+        {
+            "key": "railway:signal:distant:height",
+            "value": "dwarf",
+            "description": "🄵🅅 Signal height: Dwarf"
+        },
+        {
+            "key": "railway:signal:distant:form",
+            "description": "🄵 Signal form"
+        },
+        {
+            "key": "railway:signal:distant:form",
+            "value": "light",
+            "description": "🄵🅅 Signal form: Light"
+        },
+        {
+            "key": "railway:signal:distant:form",
+            "value": "sign",
+            "description": "🄵🅅 Signal form: Sign"
+        },
+        {
+            "key": "railway:signal:distant:form",
+            "value": "semaphore",
+            "description": "🄵🅅 Signal form: Semaphore"
+        },
+        {
+            "key": "railway:signal:combined:substitute_signal",
+            "description": "🄵 Substitute signal"
+        },
+        {
+            "key": "railway:signal:combined:height",
+            "description": "🄵 Signal height"
+        },
+        {
+            "key": "railway:signal:combined:height",
+            "value": "normal",
+            "description": "🄵🅅 Signal height: Normal"
+        },
+        {
+            "key": "railway:signal:combined:height",
+            "value": "dwarf",
+            "description": "🄵🅅 Signal height: Dwarf"
+        },
+        {
+            "key": "railway:signal:combined:function",
+            "description": "🄵 Signal function"
+        },
+        {
+            "key": "railway:signal:combined:function",
+            "value": "entry",
+            "description": "🄵🅅 Signal function: Entry"
+        },
+        {
+            "key": "railway:signal:combined:function",
+            "value": "exit",
+            "description": "🄵🅅 Signal function: Exit"
+        },
+        {
+            "key": "railway:signal:combined:function",
+            "value": "intermediate",
+            "description": "🄵🅅 Signal function: Intermediate"
+        },
+        {
+            "key": "railway:signal:combined:function",
+            "value": "block",
+            "description": "🄵🅅 Signal function: Block"
+        },
+        {
+            "key": "railway:signal:combined:form",
+            "description": "🄵 Signal form"
+        },
+        {
+            "key": "railway:signal:combined:form",
+            "value": "light",
+            "description": "🄵🅅 Signal form: Light"
+        },
+        {
+            "key": "railway:signal:combined:form",
+            "value": "sign",
+            "description": "🄵🅅 Signal form: Sign"
+        },
+        {
+            "key": "railway:signal:combined:form",
+            "value": "semaphore",
+            "description": "🄵🅅 Signal form: Semaphore"
+        },
+        {
+            "key": "railway:derail",
+            "description": "🄵 Derailer Type"
+        },
+        {
+            "key": "railway:derail",
+            "value": "wedge",
+            "description": "🄵🅅 Derailer Type: Wedge"
+        },
+        {
+            "key": "railway:derail",
+            "value": "trap_point",
+            "description": "🄵🅅 Derailer Type: Trap point"
+        },
+        {
+            "key": "railway:derail",
+            "value": "catch_point",
+            "description": "🄵🅅 Derailer Type: Catch point"
+        },
+        {
+            "key": "railway:derail:electric",
+            "description": "🄵 Electrically operated"
+        },
+        {
+            "key": "railway:derail:direction",
+            "description": "🄵 Direction Affected"
+        },
+        {
+            "key": "railway:derail:direction",
+            "value": "forward",
+            "description": "🄵🅅 Direction Affected: Forward"
+        },
+        {
+            "key": "railway:derail:direction",
+            "value": "backward",
+            "description": "🄵🅅 Direction Affected: Backward"
+        },
+        {
+            "key": "railway:derail:direction",
+            "value": "both",
+            "description": "🄵🅅 Direction Affected: Both / All"
+        },
+        {
+            "key": "railway:derail:local_operated",
+            "description": "🄳 (deprecated tag) ➜ railway:local_operated=*"
+        },
+        {
+            "key": "railway",
+            "value": "platform_edge",
+            "description": "🄳 (deprecated tag) ➜ public_transport=platform + railway=platform_edge + train=yes"
+        },
+        {
+            "key": "network",
+            "value": "cz:IDPK",
+            "description": "🄳 (deprecated tag) ➜ network=Integrovaná doprava Plzeňského kraje"
+        },
+        {
+            "key": "network",
+            "value": "IDPK",
+            "description": "🄳 (deprecated tag) ➜ network=Integrovaná doprava Plzeňského kraje"
+        },
+        {
+            "key": "network",
+            "value": "Integrovaná doprava Plzeňského kraje",
+            "description": "🄳 (deprecated tag) ➜ network=Integrovaná doprava Plzeňského kraje + network:short=IDPK + network:wikidata=Q12021682"
+        },
+        {
+            "key": "network:wikipedia",
+            "value": "cs:Integrovaná doprava Plzeňského kraje",
+            "description": "🄳 (deprecated tag) ➜ network:wikidata=Q12021682"
+        },
+        {
+            "key": "network",
+            "value": "cz:PID",
+            "description": "🄳 (deprecated tag) ➜ network=Pražská integrovaná doprava"
+        },
+        {
+            "key": "network",
+            "value": "PID",
+            "description": "🄳 (deprecated tag) ➜ network=Pražská integrovaná doprava"
+        },
+        {
+            "key": "network",
+            "value": "Pražská integrovaná doprava",
+            "description": "🄳 (deprecated tag) ➜ network=Pražská integrovaná doprava + network:short=PID + network:wikidata=Q2108171"
+        },
+        {
+            "key": "network:wikipedia",
+            "value": "cs:Pražská integrovaná doprava",
+            "description": "🄳 (deprecated tag) ➜ network:wikidata=Q2108171"
+        },
+        {
+            "key": "network",
+            "value": "Integrovaná doprava Plzeňského kraje;Pražská integrovaná doprava",
+            "description": "🄳 (deprecated tag) ➜ network=Integrovaná doprava Plzeňského kraje;Pražská integrovaná doprava + network:short=IDPK;PID + network:wikidata=Q12021682;Q2108171"
+        },
+        {
+            "key": "operator",
+            "value": "cz:ČD",
+            "description": "🄳 (deprecated tag) ➜ operator=České dráhy"
+        },
+        {
+            "key": "operator",
+            "value": "ČD",
+            "description": "🄳 (deprecated tag) ➜ operator=České dráhy"
+        },
+        {
+            "key": "operator",
+            "value": "České dráhy a.s.",
+            "description": "🄳 (deprecated tag) ➜ operator=České dráhy"
+        },
+        {
+            "key": "operator",
+            "value": "České dráhy, a. s.",
+            "description": "🄳 (deprecated tag) ➜ operator=České dráhy"
+        },
+        {
+            "key": "operator",
+            "value": "České dráhy, a.s.",
+            "description": "🄳 (deprecated tag) ➜ operator=České dráhy"
+        },
+        {
+            "key": "operator",
+            "value": "České Dráhy",
+            "description": "🄳 (deprecated tag) ➜ operator=České dráhy"
+        },
+        {
+            "key": "operator",
+            "value": "České dráhy",
+            "description": "🄳 (deprecated tag) ➜ operator=České dráhy + operator:short=ČD + operator:wikidata=Q304944"
+        },
+        {
+            "key": "operator:wikipedia",
+            "value": "cs:České dráhy",
+            "description": "🄳 (deprecated tag) ➜ operator:wikidata=Q304944"
+        },
+        {
+            "key": "operator",
+            "value": "cz:SŽDC",
+            "description": "🄳 (deprecated tag) ➜ operator=Správa železnic"
+        },
+        {
+            "key": "operator",
+            "value": "SŽDC",
+            "description": "🄳 (deprecated tag) ➜ operator=Správa železnic"
+        },
+        {
+            "key": "operator",
+            "value": "cz:SŽ",
+            "description": "🄳 (deprecated tag) ➜ operator=Správa železnic"
+        },
+        {
+            "key": "operator",
+            "value": "SŽ",
+            "description": "🄳 (deprecated tag) ➜ operator=Správa železnic"
+        },
+        {
+            "key": "operator",
+            "value": "Správa železnic, s. o.",
+            "description": "🄳 (deprecated tag) ➜ operator=Správa železnic"
+        },
+        {
+            "key": "operator",
+            "value": "cz:Správa železnic, s. o.",
+            "description": "🄳 (deprecated tag) ➜ operator=Správa železnic"
+        },
+        {
+            "key": "operator",
+            "value": "cz:Správa železnic",
+            "description": "🄳 (deprecated tag) ➜ operator=Správa železnic"
+        },
+        {
+            "key": "operator",
+            "value": "Správa železnic",
+            "description": "🄳 (deprecated tag) ➜ operator=Správa železnic + operator:short=SŽ + operator:wikidata=Q1848025"
+        },
+        {
+            "key": "operator:wikipedia",
+            "value": "cs:Správa železnic",
+            "description": "🄳 (deprecated tag) ➜ operator:wikidata=Q1848025"
+        },
+        {
+            "key": "operator",
+            "value": "cs:PMDP",
+            "description": "🄳 (deprecated tag) ➜ operator=Plzeňské městské dopravní podniky"
+        },
+        {
+            "key": "operator",
+            "value": "PMPD",
+            "description": "🄳 (deprecated tag) ➜ operator=Plzeňské městské dopravní podniky"
+        },
+        {
+            "key": "operator",
+            "value": "PMDP, a.s.",
+            "description": "🄳 (deprecated tag) ➜ operator=Správa železnic"
+        },
+        {
+            "key": "operator",
+            "value": "Plzeňské městské dopravní podniky, a.s.",
+            "description": "🄳 (deprecated tag) ➜ operator=Plzeňské městské dopravní podniky"
+        },
+        {
+            "key": "operator",
+            "value": "Plzeňské městské dopravní podniky",
+            "description": "🄳 (deprecated tag) ➜ operator=Plzeňské městské dopravní podniky + operator:short=PMDP + operator:wikidata=Q2099900"
+        },
+        {
+            "key": "operator:wikipedia",
+            "value": "cs:Plzeňské městské dopravní podniky",
+            "description": "🄳 (deprecated tag) ➜ operator:wikidata=Q2099900"
         },
         {
             "key": "aerialway",

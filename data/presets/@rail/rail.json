@@ -1,0 +1,19 @@
+{
+    "icon": "temaki-railway_track",
+    "fields": [
+        "{railway/light_rail}",
+        "railway/track_ref"
+    ],
+    "moreFields": [
+        "{railway/light_rail}",
+        "ref_rail"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "railway": "rail"
+    },
+    "name": "@Track",
+    "matchScore": 1.5
+}

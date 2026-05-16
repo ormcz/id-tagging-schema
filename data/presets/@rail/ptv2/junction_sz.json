@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-junction",
+    "geometry": [
+        "point"
+    ],
+    "fields": [
+        "name",
+        "official_name",
+        "@rail/railway_ref",
+        "@rail/uic_ref"
+    ],
+    "moreFields": [
+        "@rail/railway_ref_parent"
+    ],
+    "tags": {
+        "railway": "junction",
+        "operator": "Správa železnic"
+    },
+    "name": "@Junction (SZ)",
+    "matchScore": 2.1
+}

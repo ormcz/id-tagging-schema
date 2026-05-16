@@ -1,0 +1,14 @@
+{
+    "key": "railway:signal:shunting:height",
+    "type": "combo",
+    "label": "Signal height",
+    "strings": {
+        "options": {
+            "normal": "Normal",
+            "dwarf": "Dwarf"
+        }
+    },
+    "default": "dwarf",
+    "autoSuggestions": false,
+    "customValues": true
+}

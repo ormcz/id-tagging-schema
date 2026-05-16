@@ -1,0 +1,24 @@
+{
+    "icon": "temaki-board_train",
+    "geometry": [
+        "point"
+    ],
+    "fields": [
+        "name",
+        "official_name",
+        "@rail/railway_ref",
+        "@rail/uic_ref"
+    ],
+    "moreFields": [
+        "@rail/railway_ref_parent"
+    ],
+    "tags": {
+        "railway": "station",
+        "public_transport": "station",
+        "train": "yes",
+        "network": "Pražská integrovaná doprava",
+        "operator": "Správa železnic"
+    },
+    "name": "@Station (SZ+PID)",
+    "matchScore": 2.1
+}

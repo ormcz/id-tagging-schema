@@ -1,0 +1,5 @@
+{
+    "key": "railway:signal:main:substitute_signal",
+    "type": "check",
+    "label": "Substitute signal"
+}

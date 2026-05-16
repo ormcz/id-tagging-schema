@@ -1,0 +1,27 @@
+{
+    "icon": "maki-roadblock",
+    "geometry": [
+        "vertex"
+    ],
+    "fields": [
+        "@rail/ref",
+        "@rail/derail/type",
+        "@rail/derail/direction",
+        "@rail/derail/electric",
+        "@rail/local_operated",
+        "@rail/signal/position"
+    ],
+    "moreFields": [
+        "{@rail/@position}"
+    ],
+    "tags": {
+        "railway": "derail",
+        "railway:signal:shunting": "CZ-D1:navestidlo_vykolejky",
+        "railway:signal:shunting:states": "CZ-D1:posun_zakazan;CZ-D1:jizda_primym_smerem",
+        "railway:signal:shunting:form": "semaphore",
+        "railway:signal:shunting:height": "short",
+        "railway:signal:direction": "both"
+    },
+    "name": "@Derailer With @Signal",
+    "matchScore": 4
+}

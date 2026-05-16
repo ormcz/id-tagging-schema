@@ -1,0 +1,18 @@
+{
+    "icon": "temaki-board_bus",
+    "geometry": [
+        "relation"
+    ],
+    "fields": [
+        "name",
+        "vehicles"
+    ],
+    "tags": {
+        "type": "public_transport",
+        "public_transport": "stop_area",
+        "network": "Integrovaná doprava Plzeňského kraje",
+        "operator": "Plzeňské městské dopravní podniky"
+    },
+    "name": "@Stoparea (PMDP+IDPK)",
+    "matchScore": 2.1
+}

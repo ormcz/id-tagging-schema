@@ -1,0 +1,15 @@
+{
+    "key": "railway:signal:main:function",
+    "type": "semiCombo",
+    "label": "Signal function",
+    "strings": {
+        "options": {
+            "entry": "Entry",
+            "exit": "Exit",
+            "intermediate": "Intermediate",
+            "block": "Block"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

@@ -1,0 +1,9 @@
+{
+    "key": "railway:signal",
+    "type": "ormczSignal",
+    "label": "Ormcz Signal",
+    "geometry": [
+        "point",
+        "vertex"
+    ]
+}

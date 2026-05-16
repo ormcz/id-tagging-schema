@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-pin",
+    "geometry": [
+        "point"
+    ],
+    "fields": [
+        "name",
+        "official_name",
+        "@rail/railway_ref",
+        "@rail/uic_ref"
+    ],
+    "moreFields": [
+        "@rail/railway_ref_parent"
+    ],
+    "tags": {
+        "railway": "site",
+        "operator": "Správa železnic"
+    },
+    "name": "@Site (SZ)",
+    "matchScore": 2.1
+}

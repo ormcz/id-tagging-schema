@@ -1,0 +1,5 @@
+{
+    "key": "railway:derail:electric",
+    "type": "check",
+    "label": "Electrically operated"
+}

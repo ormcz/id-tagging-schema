@@ -1,0 +1,16 @@
+{
+    "icon": "temaki-board_train",
+    "geometry": [
+        "line"
+    ],
+    "fields": [
+        "@rail/ref"
+    ],
+    "tags": {
+        "railway": "platform_edge",
+        "train": "yes",
+        "public_transport": "platform"
+    },
+    "name": "@Platform edge",
+    "matchScore": 2
+}

@@ -1,0 +1,15 @@
+{
+    "fields": [],
+    "moreFields": [],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "power": "catenary_portal"
+    },
+    "terms": [
+        "catenary portal"
+    ],
+    "name": "@Catenary Portal",
+    "matchScore": 2
+}

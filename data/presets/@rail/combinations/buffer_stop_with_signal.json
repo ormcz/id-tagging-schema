@@ -1,0 +1,22 @@
+{
+    "icon": "temaki-buffer_stop",
+    "geometry": [
+        "vertex"
+    ],
+    "fields": [
+        "@rail/signal/direction"
+    ],
+    "tags": {
+        "railway": "buffer_stop",
+        "railway:signal:shunting": "CZ-D1:posun_zakazan",
+        "railway:signal:shunting:form": "sign",
+        "railway:signal:position": "in_track"
+    },
+    "terms": [
+        "buffer",
+        "halt",
+        "stop"
+    ],
+    "name": "Buffer Stop With @Signal",
+    "matchScore": 4
+}

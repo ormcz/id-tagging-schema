@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-train",
+    "geometry": [
+        "vertex"
+    ],
+    "fields": [
+        "name",
+        "@rail/ref"
+    ],
+    "tags": {
+        "railway": "stop",
+        "train": "yes",
+        "public_transport": "stop_position"
+    },
+    "name": "@Stop Position",
+    "matchScore": 2
+}

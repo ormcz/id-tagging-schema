@@ -1,0 +1,16 @@
+{
+    "key": "railway:signal:position",
+    "type": "combo",
+    "label": "Position (in respect to the osm way)",
+    "strings": {
+        "options": {
+            "right": "Right",
+            "left": "Left",
+            "bridge": "Bridge / Gantry",
+            "overhead": "Attached to catenary",
+            "in_track": "In the track"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

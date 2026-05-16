@@ -6948,5 +6948,308 @@
             "odd",
             "alphabetic"
         ]
+    },
+    "@rail/uic_ref": {
+        "key": "uic_ref",
+        "type": "text"
+    },
+    "@rail/track_ref": {
+        "key": "railway:track_ref",
+        "type": "text"
+    },
+    "@rail/switch_local_operated": {
+        "key": "railway:switch:local_operated",
+        "type": "check"
+    },
+    "@rail/switch_electric": {
+        "key": "railway:switch:electric",
+        "type": "check"
+    },
+    "@rail/switch": {
+        "key": "railway:switch",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": true,
+        "options": [
+            "default",
+            "double_slip",
+            "single_slip",
+            "wye",
+            "three_way",
+            "abt"
+        ]
+    },
+    "@rail/signal_direction": {
+        "key": "railway:signal:direction",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "forward",
+            "backward",
+            "both"
+        ]
+    },
+    "@rail/ref": {
+        "key": "ref",
+        "type": "text"
+    },
+    "@rail/railway_ref_parent": {
+        "key": "railway:ref:parent",
+        "type": "text"
+    },
+    "@rail/railway_ref": {
+        "key": "railway:ref",
+        "type": "text"
+    },
+    "@rail/position_exact": {
+        "key": "railway:position:exact",
+        "type": "text"
+    },
+    "@rail/position": {
+        "key": "railway:position",
+        "type": "text"
+    },
+    "@rail/ormcz_signal": {
+        "key": "railway:signal",
+        "type": "ormczSignal",
+        "geometry": [
+            "point",
+            "vertex"
+        ]
+    },
+    "@rail/local_operated": {
+        "key": "railway:local_operated",
+        "type": "check"
+    },
+    "@rail/exact_position": {
+        "key": "railway:position:exact",
+        "type": "text"
+    },
+    "@rail/switch/type": {
+        "key": "railway:switch",
+        "type": "combo",
+        "default": "default",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "default",
+            "double_slip",
+            "single_slip",
+            "wye",
+            "three_way",
+            "abt"
+        ]
+    },
+    "@rail/switch/resetting": {
+        "key": "railway:switch:resetting",
+        "type": "check"
+    },
+    "@rail/switch/movable_frog": {
+        "key": "railway:switch:movable_frog",
+        "type": "check"
+    },
+    "@rail/switch/electric": {
+        "key": "railway:switch:electric",
+        "type": "check"
+    },
+    "@rail/signal/position": {
+        "key": "railway:signal:position",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "right",
+            "left",
+            "bridge",
+            "overhead",
+            "in_track"
+        ]
+    },
+    "@rail/signal/direction": {
+        "key": "railway:signal:direction",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "forward",
+            "backward",
+            "both"
+        ]
+    },
+    "@rail/signal/catenary_mast": {
+        "key": "railway:signal:catenary_mast",
+        "type": "check"
+    },
+    "@rail/signal/speed_sign_distant/speed": {
+        "key": "railway:signal:speed_limit_distant:speed",
+        "type": "roadspeed",
+        "minValue": 10,
+        "increment": 10,
+        "autoSuggestions": false,
+        "customValues": true
+    },
+    "@rail/signal/speed_sign/speed": {
+        "key": "railway:signal:speed_limit:speed",
+        "type": "roadspeed",
+        "minValue": 5,
+        "increment": 5,
+        "autoSuggestions": false,
+        "customValues": true
+    },
+    "@rail/signal/shunting/height": {
+        "key": "railway:signal:shunting:height",
+        "type": "combo",
+        "default": "dwarf",
+        "autoSuggestions": false,
+        "customValues": true,
+        "options": [
+            "normal",
+            "dwarf"
+        ]
+    },
+    "@rail/signal/shunting/form": {
+        "key": "railway:signal:shunting:form",
+        "type": "combo",
+        "default": "light",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "light",
+            "sign",
+            "semaphore"
+        ]
+    },
+    "@rail/signal/main/substitute": {
+        "key": "railway:signal:main:substitute_signal",
+        "type": "check"
+    },
+    "@rail/signal/main/height": {
+        "key": "railway:signal:main:height",
+        "type": "combo",
+        "default": "normal",
+        "autoSuggestions": false,
+        "customValues": true,
+        "options": [
+            "normal",
+            "dwarf"
+        ]
+    },
+    "@rail/signal/main/function": {
+        "key": "railway:signal:main:function",
+        "type": "semiCombo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "entry",
+            "exit",
+            "intermediate",
+            "block"
+        ]
+    },
+    "@rail/signal/main/form": {
+        "key": "railway:signal:main:form",
+        "type": "combo",
+        "default": "light",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "light",
+            "sign",
+            "semaphore"
+        ]
+    },
+    "@rail/signal/distant/repeated": {
+        "key": "railway:signal:distant:repeated",
+        "type": "check"
+    },
+    "@rail/signal/distant/height": {
+        "key": "railway:signal:distant:height",
+        "type": "combo",
+        "default": "normal",
+        "autoSuggestions": false,
+        "customValues": true,
+        "options": [
+            "normal",
+            "dwarf"
+        ]
+    },
+    "@rail/signal/distant/form": {
+        "key": "railway:signal:distant:form",
+        "type": "combo",
+        "default": "light",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "light",
+            "sign",
+            "semaphore"
+        ]
+    },
+    "@rail/signal/combined/substitute": {
+        "key": "railway:signal:combined:substitute_signal",
+        "type": "check"
+    },
+    "@rail/signal/combined/height": {
+        "key": "railway:signal:combined:height",
+        "type": "combo",
+        "default": "normal",
+        "autoSuggestions": false,
+        "customValues": true,
+        "options": [
+            "normal",
+            "dwarf"
+        ]
+    },
+    "@rail/signal/combined/function": {
+        "key": "railway:signal:combined:function",
+        "type": "semiCombo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "entry",
+            "exit",
+            "intermediate",
+            "block"
+        ]
+    },
+    "@rail/signal/combined/form": {
+        "key": "railway:signal:combined:form",
+        "type": "combo",
+        "default": "light",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "light",
+            "sign",
+            "semaphore"
+        ]
+    },
+    "@rail/derail/type": {
+        "key": "railway:derail",
+        "type": "combo",
+        "default": "wedge",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "wedge",
+            "trap_point",
+            "catch_point"
+        ]
+    },
+    "@rail/derail/electric": {
+        "key": "railway:derail:electric",
+        "type": "check"
+    },
+    "@rail/derail/direction": {
+        "key": "railway:derail:direction",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "forward",
+            "backward",
+            "both"
+        ]
     }
 }

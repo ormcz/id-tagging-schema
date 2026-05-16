@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-railway_track_partial",
+    "geometry": [
+        "point"
+    ],
+    "fields": [
+        "name",
+        "official_name",
+        "@rail/railway_ref",
+        "@rail/uic_ref"
+    ],
+    "moreFields": [
+        "@rail/railway_ref_parent"
+    ],
+    "tags": {
+        "railway": "spur_junction",
+        "operator": "Správa železnic"
+    },
+    "name": "@Spur (SZ)",
+    "matchScore": 2.1
+}
