@@ -1,3 +1,3 @@
-import schemaBuilder from '@ormcz/schema-builder';
+import schemaBuilder from '@ormcz/id-schema-builder';
 
 schemaBuilder.validate();

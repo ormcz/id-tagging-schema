@@ -1,13 +1,13 @@
 {
   "type": "module",
-  "name": "@openstreetmap/id-tagging-schema",
+  "name": "@ormcz/id-tagging-schema",
   "version": "6.17.0",
   "description": "The OpenStreetMap tagging model used by the iD editor",
-  "homepage": "https://github.com/openstreetmap/id-tagging-schema#readme",
-  "bugs": "https://github.com/openstreetmap/id-tagging-schema/issues",
+  "homepage": "https://github.com/ormcz/id-tagging-schema#readme",
+  "bugs": "https://github.com/ormcz/id-tagging-schema/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openstreetmap/id-tagging-schema.git"
+    "url": "git+https://github.com/ormcz/id-tagging-schema.git"
   },
   "license": "ISC",
   "main": "build.js",
@@ -20,8 +20,10 @@
     "translations": "node scripts/translations.js"
   },
   "devDependencies": {
-    "@ormcz/schema-builder": "~6.5.1",
     "prettier": "^3.2.5",
     "unzipper": "^0.12.3"
+  },
+  "dependencies": {
+    "@ormcz/id-schema-builder": "^6.5.1-v4"
   }
 }
